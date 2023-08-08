@@ -1,0 +1,35 @@
+body
+{
+        background-image: url("https://cdn4.vectorstock.com/i/1000x1000/21/88/background-template-with-plain-color-and-monkey-vector-30702188.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+}
+header{
+        text-align: center;
+        font-family: Impact, 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell','monospace';
+
+}
+
+button
+{     
+        text-align: center;  
+        position: absolute;
+        height: 90px;
+        width: 100px;
+        font-size: xx-large;
+        border-radius: 25%;
+        color: black;
+        background-image:linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
+        margin-left: 600px;
+        margin-top: 50px;
+}
+/* #y:hover{
+       
+        transform: scale(1.25) perspective(1px);
+} */
+#n:hover{
+        /* transform: skewY(20deg); */
+        left: 200px;
+  top: 200x;
+  transition:0s 20000s ;
+}

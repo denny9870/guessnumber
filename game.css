@@ -1,0 +1,52 @@
+ body{
+    text-align: center;
+    background-image: url(https://img.freepik.com/free-vector/red-background-comic-style_23-2149034894.jpg?size=626&ext=jpg&ga=GA1.2.1561779066.1691154821&semt=ais);
+    background-size: cover;
+} 
+/* h2{
+    font-family: "Lucida" ,'Grande', sans-serif;
+    font-size: x-large;
+    margin-top: 250px;
+    background-color: blueviolet;
+    width: 300px;
+    text-align: center;
+    margin-left: 610px;
+
+}
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+} */
+h2{
+    font-family: "Lucida" ,'Grande', sans-serif;
+    font-size: x-large;
+    background-color: rgb(205, 159, 204);
+}
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+}
+#guessInput{
+    height: 20px;
+    width: 200px;
+    border: 2px solid black;
+    background-color: #9c8b85;
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+#btn{
+    background-color: #7b3daa;
+    margin: 15px;
+
+}
+.container{
+    background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #f0841f;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #c16161;
+    text-align: center;
+    height: 300px;
+    margin-top: 200px;
+}
